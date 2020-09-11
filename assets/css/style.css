@@ -1,0 +1,136 @@
+/*html*/
+/*body*/
+body,
+html{
+    font-family:        'Montserrat', sans-serif !important;
+    overflow-x:         hidden;
+    background-color:   #34495E;
+}
+
+/*====Template Page====*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family:        'Montserrat Alternates', sans-serif;}
+
+/*Card }*/
+.card-body {
+    min-height:         500px !important;
+}
+   
+/*Header*/
+.header-name a{
+    font-family:        'Montserrat Subrayada', sans-serif;
+    color:              #34495E !important;
+}
+.header-name a:hover{
+    color:              #1ABC9C !important;
+    font-size:          27px !important;
+}
+
+/*Navigation*/
+a.nav-link {
+    border-radius:      0px !important;
+    background-color:   #1ABC9C !important;
+}
+a.nav-link.active,
+a.nav-link:hover {
+    background-color:   #34495E !important;
+}
+
+/*Social Icons*/
+.fa {
+    font-size:          1.5em;
+    padding:            20px;
+}
+
+/*Copyright*/
+a,
+.copyright {
+    color:              #000 !important;
+}
+
+/* Portfolio Page */
+.card .card-header {
+    border-radius:      2px;
+    background:         none;
+}
+.project a{
+    color: #000 !important;
+    text-decoration: underline;
+}
+/*====Skills Stats====*/
+.progress{
+    opacity:            0.8;
+    color:              #fff;
+    background-color:   #34495E;
+    height:             20px;
+}
+.progress:hover{
+    opacity:            1;
+}
+.skill{
+    font-size:          x-small;
+    text-align:         left;
+    color:              #000;
+    background-color:   #1ABC9C;
+}
+.skill:hover{
+    font-size:          small;
+}
+.supervised{width:      60%;}
+.unsupervised{width:    40%;}
+.reinforcement{width:   20%;}
+.frontend{width:        80%;}
+.backend{width:         60%;}
+.deployment{width:      10%;}
+.python{width:          60%;}
+.javascript{width:      40%;}
+.css{width:             50%;}
+.git{width:             80%;}
+.vsc{width:             98%;}
+.linux{width:           98%;}
+
+/*====Contacts Page====*/
+/*Contact me icons*/
+#contact .fa-envelope,
+#contact .fa-whatsapp,
+#contact .fa-copy,
+#contact .fa-phone {
+    font-size:          3em;
+    display:            block;
+}
+
+/*Responsive media*/
+@media (max-width:      768px) {
+    .fa {
+        font-size:      1em;
+        padding:        5px;
+    }
+
+    #contact .fa-envelope,
+    #contact .fa-whatsapp,
+    #contact .fa-copy,
+    #contact .fa-phone {
+        font-size:      2em;
+        display:        block;
+    }
+}
+.fa-wpexplorer{
+    color: #fff;
+    font-size:          100px;
+}
+.fa-wpexplorer:hover{
+    transition:         1s;
+    color:            #1968b7;
+    border-bottom:      3px solid;
+    padding-bottom:     50px;
+}
+.brand:hover{
+    transition:         1s;
+    border-bottom:      5px solid #1968b7;
+    padding-bottom:     50px;
+}
