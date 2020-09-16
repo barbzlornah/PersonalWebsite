@@ -24,21 +24,21 @@ h6{
 /*Header*/
 .header-name a{
     font-family:        'Montserrat Subrayada', sans-serif;
-    color:              #34495E !important;
+    color:              #020220 !important;
 }
 .header-name a:hover{
-    color:              #1ABC9C !important;
-    font-size:          27px !important;
+    color:              #1f0970 !important;
+    font-size:          30px !important;
 }
 
 /*Navigation*/
 a.nav-link {
     border-radius:      0px !important;
-    background-color:   #1ABC9C !important;
+    background-color:   #250f86 !important;
 }
 a.nav-link.active,
 a.nav-link:hover {
-    background-color:   #34495E !important;
+    background-color:   #020220 !important;
 }
 
 /*Social Icons*/
