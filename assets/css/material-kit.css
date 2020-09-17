@@ -1,27 +1,4 @@
-/*!
-
- =========================================================
- * Material Kit - v2.0.7
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/material-kit
- * Copyright 2020 Creative Tim (http://www.creative-tim.com)
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
-/*     brand Colors              */
-.carousel.carousel-full-navigation .left {
-    cursor: url("../../img/arrow-left.png"), url("../../img/arrow-left.cur"), default !important;
-  }
-  
-  .carousel.carousel-full-navigation .right {
-    cursor: url("../../img/arrow-right.png"), url("../../img/arrow-right.cur"), default !important;
-  }
-  
-  .card {
+.card {
     font-size: .875rem;
   }
   
@@ -94,13 +71,13 @@
     margin-bottom: 1rem;
   }
   
-  abbr[title],
+  /*abbr[title],
   abbr[data-original-title] {
     text-decoration: underline;
     text-decoration: underline dotted;
     cursor: help;
     border-bottom: 0;
-  }
+  }*/
   
   address {
     margin-bottom: 1rem;
@@ -173,7 +150,7 @@
   
   a:hover {
     color: #641971;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
   }
   
   a:not([href]):not([tabindex]) {
@@ -373,7 +350,7 @@
     }
   
     a:not(.btn) {
-      text-decoration: underline;
+      /*text-decoration: underline;*/
     }
   
     abbr[title]::after {
@@ -401,10 +378,10 @@
   
     p,
     h2,
-    h3 {
+    /*h3 {
       orphans: 3;
       widows: 3;
-    }
+    }*/
   
     h2,
     h3 {
@@ -515,13 +492,13 @@
     margin-bottom: 1rem;
   }
   
-  abbr[title],
+  /*abbr[title],
   abbr[data-original-title] {
     text-decoration: underline;
     text-decoration: underline dotted;
     cursor: help;
     border-bottom: 0;
-  }
+  }*/
   
   address {
     margin-bottom: 1rem;
@@ -592,10 +569,10 @@
     -webkit-text-decoration-skip: objects;
   }
   
-  a:hover {
+  /*a:hover {
     color: #641971;
     text-decoration: underline;
-  }
+  }*/
   
   a:not([href]):not([tabindex]) {
     color: inherit;
@@ -3490,19 +3467,19 @@
     background-color: transparent;
   }
   
-  .btn-link:hover {
+  /*.btn-link:hover {
     color: #641971;
     text-decoration: underline;
     background-color: transparent;
     border-color: transparent;
-  }
+  }*/
   
-  .btn-link:focus,
+ /* .btn-link:focus,
   .btn-link.focus {
     text-decoration: underline;
     border-color: transparent;
     box-shadow: none;
-  }
+  }*/
   
   .btn-link:disabled,
   .btn-link.disabled {
@@ -5062,9 +5039,9 @@
     content: "/";
   }
   
-  .breadcrumb-item+.breadcrumb-item:hover::before {
+ /* .breadcrumb-item+.breadcrumb-item:hover::before {
     text-decoration: underline;
-  }
+  }*/
   
   .breadcrumb-item+.breadcrumb-item:hover::before {
     text-decoration: none;
@@ -11880,7 +11857,7 @@
     padding-top: 50px;
   }
   
-  .tim-row h3 {
+  .tim-row  {
     margin-top: 0;
   }
   
@@ -14911,7 +14888,7 @@
     border-radius: 0;
   }
   
-  .badge {
+ /* .badge {
     padding: 5px 12px;
     text-transform: uppercase;
     font-size: 10px;
@@ -15116,7 +15093,7 @@
   .alert .close:focus {
     opacity: 1;
   }
-  
+*/
   .pagination>.page-item>.page-link,
   .pagination>.page-item>span {
     border: 0;
@@ -16920,7 +16897,7 @@
     display: flex;
   }
   
-  footer ul {
+  /*footer ul {
     margin-bottom: 0;
     padding: 0;
     list-style: none;
@@ -17001,7 +16978,7 @@
   footer .pull-center {
     display: inline-block;
     float: none;
-  }
+  }*/
   
   .card {
     border: 0;
