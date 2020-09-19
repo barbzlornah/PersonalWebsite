@@ -1,4 +1,12 @@
-.card {
+.carousel.carousel-full-navigation .left {
+    cursor: url("../../img/arrow-left.png"), url("../../img/arrow-left.cur"), default !important;
+  }
+  
+  .carousel.carousel-full-navigation .right {
+    cursor: url("../../img/arrow-right.png"), url("../../img/arrow-right.cur"), default !important;
+  }
+  
+  .card {
     font-size: .875rem;
   }
   
@@ -71,13 +79,13 @@
     margin-bottom: 1rem;
   }
   
-  /*abbr[title],
+  abbr[title],
   abbr[data-original-title] {
     text-decoration: underline;
     text-decoration: underline dotted;
     cursor: help;
     border-bottom: 0;
-  }*/
+  }
   
   address {
     margin-bottom: 1rem;
@@ -150,7 +158,7 @@
   
   a:hover {
     color: #641971;
-    /*text-decoration: underline;*/
+    text-decoration: underline;
   }
   
   a:not([href]):not([tabindex]) {
@@ -350,7 +358,7 @@
     }
   
     a:not(.btn) {
-      /*text-decoration: underline;*/
+      text-decoration: underline;
     }
   
     abbr[title]::after {
@@ -492,13 +500,13 @@
     margin-bottom: 1rem;
   }
   
-  /*abbr[title],
+  abbr[title],
   abbr[data-original-title] {
     text-decoration: underline;
     text-decoration: underline dotted;
     cursor: help;
     border-bottom: 0;
-  }*/
+  }
   
   address {
     margin-bottom: 1rem;
@@ -569,10 +577,10 @@
     -webkit-text-decoration-skip: objects;
   }
   
-  /*a:hover {
+  a:hover {
     color: #641971;
     text-decoration: underline;
-  }*/
+  }
   
   a:not([href]):not([tabindex]) {
     color: inherit;
@@ -3467,19 +3475,19 @@
     background-color: transparent;
   }
   
-  /*.btn-link:hover {
+  .btn-link:hover {
     color: #641971;
     text-decoration: underline;
     background-color: transparent;
     border-color: transparent;
-  }*/
+  }
   
- /* .btn-link:focus,
+  .btn-link:focus,
   .btn-link.focus {
     text-decoration: underline;
     border-color: transparent;
     box-shadow: none;
-  }*/
+  }
   
   .btn-link:disabled,
   .btn-link.disabled {
@@ -5039,9 +5047,9 @@
     content: "/";
   }
   
- /* .breadcrumb-item+.breadcrumb-item:hover::before {
+  .breadcrumb-item+.breadcrumb-item:hover::before {
     text-decoration: underline;
-  }*/
+  }
   
   .breadcrumb-item+.breadcrumb-item:hover::before {
     text-decoration: none;
