@@ -27,7 +27,14 @@ body {
     background-position: center;
     position: relative;
   }
-  
+  .black-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.6);
+  }
   .description {
     left: 50%;
     position: absolute;
