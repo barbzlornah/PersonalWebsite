@@ -17,10 +17,12 @@ html{
 .header-name a{
     font-family:        'Montserrat Subrayada', sans-serif;
     color:              #020220 !important;
+    
 }
 .header-name a:hover{
     color:              #1f0970 !important;
     font-size:          30px !important;
+    
 }
 
 /*Navigation*/
@@ -31,6 +33,7 @@ a.nav-link {
 a.nav-link.active,
 a.nav-link:hover {
     background-color:   #020220 !important;
+    
 }
 
 /*Social Icons*/
