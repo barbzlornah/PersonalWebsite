@@ -60,8 +60,8 @@ a,
 /*====Skills Stats====*/
 .progress{
     opacity:            0.8;
-    color:              #fff;
-    background-color:   #34495E;
+    color:              #000;
+    
     height:             20px;
 }
 .progress:hover{
@@ -71,12 +71,12 @@ a,
     font-size:          x-small;
     text-align:         left;
     color:              #000;
-    background-color:   #1ABC9C;
+    
 }
 .skill:hover{
     font-size:          small;
 }
-.supervised{width:      60%;}
+.supervised{width:      40%;}
 .unsupervised{width:    40%;}
 .reinforcement{width:   20%;}
 .frontend{width:        80%;}
