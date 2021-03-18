@@ -22,7 +22,7 @@ body {
     justify-content: flex-end;
   }
   .header {
-    background-image: url('https://images.unsplash.com/photo-1512746854314-8e1472bf9310?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fG1haXplJTIwYW5kJTIwdmVnZXRhYmxlcyUyMHBsYXRhdGlvbiUyMGltYWdlc3xlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-image: url('https://hellpcfiles.files.wordpress.com/2017/04/top-10-geek-desktop-wallpapers-free-download-7.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -43,12 +43,11 @@ body {
     text-align: center;
   }
   .description h1 {
-    color: #fff;
-    font-size: 5.3rem;
+    color: #f2f6e9;
   }
   .description p {
-    color: #080606;
-    font-size: 3.3rem;
+    color: #fff;
+    font-size: 1.3rem;
     line-height: 1.5;
   }
   .description button {
