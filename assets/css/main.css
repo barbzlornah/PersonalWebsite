@@ -22,7 +22,7 @@ body {
     justify-content: flex-end;
   }
   .header {
-    background-image: url('https://images.unsplash.com/photo-1586771107445-d3ca888129ff?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8YWdyaWN1bHR1cmV8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-image: url('https://hellpcfiles.files.wordpress.com/2017/04/top-10-geek-desktop-wallpapers-free-download-7.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -38,17 +38,12 @@ body {
   .description {
     left: 50%;
     position: absolute;
-    top: 25%;
-    /* transform: translate(-50%, -55%); */
+    top: 45%;
+    transform: translate(-50%, -55%);
     text-align: center;
   }
   .description h1 {
-    color: #e21717;
-    font-size: 3.3rem;
-  }
-  .description h2 {
-    color: #168d26;
-    font-size: 2.3rem;
+    color: #f2f6e9;
   }
   .description p {
     color: #fff;
