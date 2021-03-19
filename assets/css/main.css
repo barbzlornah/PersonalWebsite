@@ -22,7 +22,7 @@ body {
     justify-content: flex-end;
   }
   .header {
-    background-image: url('https://hellpcfiles.files.wordpress.com/2017/04/top-10-geek-desktop-wallpapers-free-download-7.jpg');
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAASwAAACoCAMAAABt9SM9AAAAA1BMVEUAuQCSfSgrAAAAR0lEQVR4nO3BAQEAAACCIP+vbkhAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAO8GxYgAAb0jQ/cAAAAASUVORK5CYII=');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -38,15 +38,16 @@ body {
   .description {
     left: 50%;
     position: absolute;
-    top: 45%;
-    transform: translate(-50%, -55%);
+     top: 30%;
+    /*transform: translate(-50%, -55%); */
     text-align: center;
+    justify-content: center;
   }
   .description h1 {
-    color: #f2f6e9;
+    color: #b80808;
   }
   .description p {
-    color: #fff;
+    color: #080707;
     font-size: 1.3rem;
     line-height: 1.5;
   }
